@@ -1,0 +1,1206 @@
+[
+    {
+        "id": "a1b2c3d4-e5f6-7890-g1h2-i3j4k5l6m7n8",
+        "text": "Какой из следующих способов объявления переменной позволяет изменять её значение и имеет блочную область видимости?",
+        "answers": [
+            {
+                "id": "p1q2r3s4-t5u6-v7w8-x9y0-z1a2b3c4d5e6",
+                "text": "var"
+            },
+            {
+                "id": "f7g8h9i0-j1k2-l3m4-n5o6-p7q8r9s0t1u2",
+                "text": "let"
+            },
+            {
+                "id": "v3w4x5y6-z7a8-b9c0-d1e2-f3g4h5i6j7k8",
+                "text": "const"
+            },
+            {
+                "id": "l9m0n1o2-p3q4-r5s6-t7u8-v9w0x1y2z3a4",
+                "text": "function"
+            }
+        ],
+        "correctAnswerIds": [
+            "f7g8h9i0-j1k2-l3m4-n5o6-p7q8r9s0t1u2"
+        ],
+        "correctAnswerDescription": "Ключевое слово let позволяет объявлять переменные с возможностью изменения значения и с блочной областью видимости."
+    },
+    {
+        "id": "b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q7",
+        "text": "Что произойдет при попытке доступа к переменной, объявленной через let, до её объявления в коде?",
+        "answers": [
+            {
+                "id": "r8s9t0u1-v2w3-x4y5-z6a7-b8c9d0e1f2g3",
+                "text": "вернёт undefined"
+            },
+            {
+                "id": "h4i5j6k7-l8m9-n0o1-p2q3-r4s5t6u7v8w9",
+                "text": "выбросит ReferenceError"
+            },
+            {
+                "id": "x0y1z2a3-b4c5-d6e7-f8g9-h0i1j2k3l4m5",
+                "text": "переменная будет проинициализирована как null"
+            },
+            {
+                "id": "n6o7p8q9-r0s1-t2u3-v4w5-x6y7z8a9b0c1",
+                "text": "будет применена hoisting и вернётся значение"
+            }
+        ],
+        "correctAnswerIds": [
+            "h4i5j6k7-l8m9-n0o1-p2q3-r4s5t6u7v8w9"
+        ],
+        "correctAnswerDescription": "Переменные, объявленные через let, поднимаются (hoisting), но не инициализируются до момента объявления — это временная мертвая зона (TDZ)."
+    },
+    {
+        "id": "c3d4e5f6-g7h8-i9j0-k1l2-m3n4o5p6q7r8",
+        "text": "Какой оператор используется для строгого сравнения значений и типов в JavaScript?",
+        "answers": [
+            {
+                "id": "s2t3u4v5-w6x7-y8z9-a0b1-c2d3e4f5g6h7",
+                "text": "=="
+            },
+            {
+                "id": "i8j9k0l1-m2n3-o4p5-q6r7-s8t9u0v1w2x3",
+                "text": "==="
+            },
+            {
+                "id": "y4z5a6b7-c8d9-e0f1-g2h3-i4j5k6l7m8n9",
+                "text": "="
+            },
+            {
+                "id": "t4u5v6w7-x8y9-z0a1-b2c3-d4e5f6g7h8i9",
+                "text": "!="
+            }
+        ],
+        "correctAnswerIds": [
+            "i8j9k0l1-m2n3-o4p5-q6r7-s8t9u0v1w2x3"
+        ],
+        "correctAnswerDescription": "Оператор === сравнивает значения по значению и типу без приведения типов."
+    },
+    {
+        "id": "d4e5f6g7-h8i9-j0k1-l2m3-n4o5p6q7r8s9",
+        "text": "Что вернёт выражение: 0 == false?",
+        "answers": [
+            {
+                "id": "u6v7w8x9-y0z1-a2b3-c4d5-e6f7g8h9i0j1",
+                "text": "true"
+            },
+            {
+                "id": "k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6",
+                "text": "false"
+            },
+            {
+                "id": "b7c8d9e0-f1g2-h3i4-j5k6-l7m8n9o0p1q2",
+                "text": "undefined"
+            },
+            {
+                "id": "w4x5y6z7-a8b9-c0d1-e2f3-g4h5i6j7k8l9",
+                "text": "ошибка"
+            }
+        ],
+        "correctAnswerIds": [
+            "u6v7w8x9-y0z1-a2b3-c4d5-e6f7g8h9i0j1"
+        ],
+        "correctAnswerDescription": "При нестрогом сравнении 0 и false приводятся к одному типу и считаются равными."
+    },
+    {
+        "id": "e5f6g7h8-i9j0-k1l2-m3n4-o5p6q7r8s9t0",
+        "text": "Какой цикл гарантированно выполнится хотя бы один раз?",
+        "answers": [
+            {
+                "id": "m9n0o1p2-q3r4-s5t6-u7v8-w9x0y1z2a3b4",
+                "text": "for"
+            },
+            {
+                "id": "c5d6e7f8-g9h0-i1j2-k3l4-m5n6o7p8q9r0",
+                "text": "while"
+            },
+            {
+                "id": "t1u2v3w4-x5y6-z7a8-b9c0-d1e2f3g4h5i6",
+                "text": "do...while"
+            },
+            {
+                "id": "j7k8l9m0-n1o2-p3q4-r5s6-t7u8v9w0x1y2",
+                "text": "for...in"
+            }
+        ],
+        "correctAnswerIds": [
+            "t1u2v3w4-x5y6-z7a8-b9c0-d1e2f3g4h5i6"
+        ],
+        "correctAnswerDescription": "Цикл do...while сначала выполняет тело, затем проверяет условие, поэтому он всегда запускается минимум один раз."
+    },
+    {
+        "id": "f6g7h8i9-j0k1-l2m3-n4o5-p6q7r8s9t0u1",
+        "text": "Что выведет console.log(typeof null)?",
+        "answers": [
+            {
+                "id": "k8l9m0n1-o2p3-q4r5-s6t7-u8v9w0x1y2z3",
+                "text": "null"
+            },
+            {
+                "id": "a4b5c6d7-e8f9-g0h1-i2j3-k4l5m6n7o8p9",
+                "text": "object"
+            },
+            {
+                "id": "q1r2s3t4-u5v6-w7x8-y9z0-a1b2c3d4e5f6",
+                "text": "undefined"
+            },
+            {
+                "id": "n5o6p7q8-r9s0-t1u2-v3w4-x5y6z7a8b9c0",
+                "text": "error"
+            }
+        ],
+        "correctAnswerIds": [
+            "a4b5c6d7-e8f9-g0h1-i2j3-k4l5m6n7o8p9"
+        ],
+        "correctAnswerDescription": "Из-за ошибки в дизайне JavaScript typeof null возвращает 'object'. Это известный баг."
+    },
+    {
+        "id": "g7h8i9j0-k1l2-m3n4-o5p6-q7r8s9t0u1v2",
+        "text": "Какой из следующих вариантов правильно объявляет константу с объектом?",
+        "answers": [
+            {
+                "id": "o7p8q9r0-s1t2-u3v4-w5x6-y7z8a9b0c1d2",
+                "text": "const obj = {};"
+            },
+            {
+                "id": "e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6",
+                "text": "let const obj = {};"
+            },
+            {
+                "id": "u9v0w1x2-y3z4-a5b6-c7d8-e9f0g1h2i3j4",
+                "text": "const obj: {};"
+            },
+            {
+                "id": "r3s4t5u6-v7w8-x9y0-z1a2-b3c4d5e6f7g8",
+                "text": "const obj = new Object"
+            }
+        ],
+        "correctAnswerIds": [
+            "o7p8q9r0-s1t2-u3v4-w5x6-y7z8a9b0c1d2",
+            "r3s4t5u6-v7w8-x9y0-z1a2-b3c4d5e6f7g8"
+        ],
+        "correctAnswerDescription": "Объект можно объявить через литерал {} или конструктор Object. Ключевое слово const допустимо для обоих случаев."
+    },
+    {
+        "id": "h8i9j0k1-l2m3-n4o5-p6q7-r8s9t0u1v2w3",
+        "text": "Можно ли изменить свойства объекта, объявленного через const?",
+        "answers": [
+            {
+                "id": "s5t6u7v8-w9x0-y1z2-a3b4-c5d6e7f8g9h0",
+                "text": "нет, объект полностью заморожен"
+            },
+            {
+                "id": "i4j5k6l7-m8n9-o0p1-q2r3-s4t5u6v7w8x9",
+                "text": "да, можно изменять свойства"
+            },
+            {
+                "id": "z2a3b4c5-d6e7-f8g9-h0i1-j2k3l4m5n6o7",
+                "text": "только если использовать Object.freeze()"
+            },
+            {
+                "id": "v8w9x0y1-z2a3-b4c5-d6e7-e8f9g0h1i2j3",
+                "text": "только добавлять новые свойства"
+            }
+        ],
+        "correctAnswerIds": [
+            "i4j5k6l7-m8n9-o0p1-q2r3-s4t5u6v7w8x9"
+        ],
+        "correctAnswerDescription": "const запрещает повторное присваивание переменной, но не делает объект неизменяемым. Для полной иммутабельности нужно использовать Object.freeze()."
+    },
+    {
+        "id": "i9j0k1l2-m3n4-o5p6-q7r8-s9t0u1v2w3x4",
+        "text": "Что делает ключевое слово break в цикле?",
+        "answers": [
+            {
+                "id": "j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9y0",
+                "text": "пропускает текущую итерацию"
+            },
+            {
+                "id": "a7b8c9d0-e1f2-g3h4-i5j6-k7l8m9n0o1p2",
+                "text": "завершает выполнение цикла"
+            },
+            {
+                "id": "q3r4s5t6-u7v8-w9x0-y1z2-a3b4c5d6e7f8",
+                "text": "переходит к следующей итерации"
+            },
+            {
+                "id": "n2o3p4q5-r6s7-t8u9-v0w1-x2y3z4a5b6c7",
+                "text": "выбрасывает исключение"
+            }
+        ],
+        "correctAnswerIds": [
+            "a7b8c9d0-e1f2-g3h4-i5j6-k7l8m9n0o1p2"
+        ],
+        "correctAnswerDescription": "break немедленно прекращает выполнение цикла и передаёт управление следующему за ним коду."
+    },
+    {
+        "id": "j0k1l2m3-n4o5-p6q7-r8s9-t0u1v2w3x4y5",
+        "text": "Для чего используется continue в цикле?",
+        "answers": [
+            {
+                "id": "b8c9d0e1-f2g3-h4i5-j6k7-l8m9n0o1p2q3",
+                "text": "для завершения цикла"
+            },
+            {
+                "id": "r4s5t6u7-v8w9-x0y1-z2a3-b4c5d6e7f8g9",
+                "text": "для перехода к следующей итерации"
+            },
+            {
+                "id": "o3p4q5r6-s7t8-u9v0-w1x2-y3z4a5b6c7d8",
+                "text": "для перезапуска цикла"
+            },
+            {
+                "id": "h0i1j2k3-l4m5-n6o7-p8q9-r0s1t2u3v4w5",
+                "text": "для вызова функции"
+            }
+        ],
+        "correctAnswerIds": [
+            "r4s5t6u7-v8w9-x0y1-z2a3-b4c5d6e7f8g9"
+        ],
+        "correctAnswerDescription": "continue прерывает текущую итерацию и переходит к следующей, если условие цикла выполняется."
+    },
+    {
+        "id": "k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6",
+        "text": "Какой из этих типов данных является примитивным в JavaScript?",
+        "answers": [
+            {
+                "id": "s6t7u8v9-w0x1-y2z3-a4b5-c6d7e8f9g0h1",
+                "text": "Array"
+            },
+            {
+                "id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+                "text": "Object"
+            },
+            {
+                "id": "a9b0c1d2-e3f4-g5h6-i7j8-k9l0m1n2o3p4",
+                "text": "string"
+            },
+            {
+                "id": "t7u8v9w0-x1y2-z3a4-b5c6-c7d8e9f0g1h2",
+                "text": "Function"
+            }
+        ],
+        "correctAnswerIds": [
+            "a9b0c1d2-e3f4-g5h6-i7j8-k9l0m1n2o3p4"
+        ],
+        "correctAnswerDescription": "string — примитивный тип. Array, Object и Function — это объекты."
+    },
+    {
+        "id": "l2m3n4o5-p6q7-r8s9-t0u1-v2w3x4y5z6a7",
+        "text": "Что вернёт выражение Boolean('')?",
+        "answers": [
+            {
+                "id": "j1k2l3m4-n5o6-p7q8-r9s0-t1u2v3w4x5y6",
+                "text": "true"
+            },
+            {
+                "id": "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8",
+                "text": "false"
+            },
+            {
+                "id": "u4v5w6x7-y8z9-a0b1-c2d3-d4e5f6g7h8i9",
+                "text": "null"
+            },
+            {
+                "id": "q5r6s7t8-u9v0-w1x2-y3z4-z5a6b7c8d9e0",
+                "text": "undefined"
+            }
+        ],
+        "correctAnswerIds": [
+            "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8"
+        ],
+        "correctAnswerDescription": "Пустая строка — это falsy-значение, поэтому Boolean('') возвращает false."
+    },
+    {
+        "id": "m3n4o5p6-q7r8-s9t0-u1v2-w3x4y5z6a7b8",
+        "text": "Какой результат выполнения: 3 > 2 > 1?",
+        "answers": [
+            {
+                "id": "r9s0t1u2-v3w4-x5y6-z7a8-a9b0c1d2e3f4",
+                "text": "true"
+            },
+            {
+                "id": "h5i6j7k8-l9m0-n1o2-p3q4-q5r6s7t8u9v0",
+                "text": "false"
+            },
+            {
+                "id": "w2x3y4z5-a6b7-c8d9-e0f1-f2g3h4i5j6k7",
+                "text": "1"
+            },
+            {
+                "id": "t8u9v0w1-x2y3-z4a5-b6c7-g8h9i0j1k2l3",
+                "text": "NaN"
+            }
+        ],
+        "correctAnswerIds": [
+            "h5i6j7k8-l9m0-n1o2-p3q4-q5r6s7t8u9v0"
+        ],
+        "correctAnswerDescription": "Выражение выполняется слева направо: (3 > 2) → true, затем true > 1 → 1 > 1 → false, так как true преобразуется в 1."
+    },
+    {
+        "id": "n4o5p6q7-r8s9-t0u1-v2w3-x4y5z6a7b8c9",
+        "text": "Какое ключевое слово используется для выхода из функции с возвратом значения?",
+        "answers": [
+            {
+                "id": "i0j1k2l3-m4n5-o6p7-q8r9-s0t1u2v3w4x5",
+                "text": "exit"
+            },
+            {
+                "id": "a1b2c3d4-e5f6-f7g8-h9i0-j1k2l3m4n5o6",
+                "text": "return"
+            },
+            {
+                "id": "v5w6x7y8-z9a0-b1c2-d3e4-e5f6g7h8i9j0",
+                "text": "break"
+            },
+            {
+                "id": "k3l4m5n6-o7p8-q9r0-s1t2-t3u4v5w6x7y8",
+                "text": "stop"
+            }
+        ],
+        "correctAnswerIds": [
+            "a1b2c3d4-e5f6-f7g8-h9i0-j1k2l3m4n5o6"
+        ],
+        "correctAnswerDescription": "Ключевое слово return завершает выполнение функции и возвращает указанное значение."
+    },
+    {
+        "id": "o5p6q7r8-s9t0-u1v2-w3x4-y5z6a7b8c9d0",
+        "text": "Что такое тернарный оператор в JavaScript?",
+        "answers": [
+            {
+                "id": "u7v8w9x0-y1z2-a3b4-c5d6-d7e8f9g0h1i2",
+                "text": "оператор сравнения"
+            },
+            {
+                "id": "m5n6o7p8-q9r0-s1t2-u3v4-v5w6x7y8z9a0",
+                "text": "условный оператор вида condition ? expr1 : expr2"
+            },
+            {
+                "id": "j2k3l4m5-n6o7-p8q9-r0s1-s2t3u4v5w6x7",
+                "text": "цикл с условием"
+            },
+            {
+                "id": "x8y9z0a1-b2c3-d4e5-f6g7-h8i9j0k1l2m3",
+                "text": "логический оператор"
+            }
+        ],
+        "correctAnswerIds": [
+            "m5n6o7p8-q9r0-s1t2-u3v4-v5w6x7y8z9a0"
+        ],
+        "correctAnswerDescription": "Тернарный оператор — это сокращённая форма if...else: condition ? valueIfTrue : valueIfFalse."
+    },
+    {
+        "id": "p6q7r8s9-t0u1-v2w3-x4y5-z6a7b8c9d0e1",
+        "text": "Как правильно записать условие if-else, чтобы проверить, что число больше 10 и меньше 20?",
+        "answers": [
+            {
+                "id": "i3j4k5l6-m7n8-o9p0-q1r2-r3s4t5u6v7w8",
+                "text": "if (num > 10 || num < 20)"
+            },
+            {
+                "id": "n7o8p9q0-r1s2-t3u4-v5w6-w7x8y9z0a1b2",
+                "text": "if (num > 10 && num < 20)"
+            },
+            {
+                "id": "t4u5v6w7-x8y9-z0a1-b2c3-c4d5e6f7g8h9",
+                "text": "if (num >= 10 && num <= 20)"
+            },
+            {
+                "id": "q9r0s1t2-u3v4-w5x6-y7z8-z9a0b1c2d3e4",
+                "text": "if (num > 10 < 20)"
+            }
+        ],
+        "correctAnswerIds": [
+            "n7o8p9q0-r1s2-t3u4-v5w6-w7x8y9z0a1b2"
+        ],
+        "correctAnswerDescription": "Логический оператор && требует выполнения обоих условий: число должно быть больше 10 и меньше 20."
+    },
+    {
+        "id": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
+        "text": "Что произойдет, если в цикле for не указать начальное условие?",
+        "answers": [
+            {
+                "id": "u5v6w7x8-y9z0-a1b2-c3d4-d5e6f7g8h9i0",
+                "text": "ошибка синтаксиса"
+            },
+            {
+                "id": "j4k5l6m7-n8o9-p0q1-r2s3-s4t5u6v7w8x9",
+                "text": "цикл не запустится"
+            },
+            {
+                "id": "x0y1z2a3-b4c5-d6e7-f8g9-h9i0j1k2l3m4",
+                "text": "начальное значение будет undefined"
+            },
+            {
+                "id": "t6u7v8w9-x0y1-z2a3-b4c5-c6d7e8f9g0h1",
+                "text": "можно опустить, если инициализация вне цикла"
+            }
+        ],
+        "correctAnswerIds": [
+            "t6u7v8w9-x0y1-z2a3-b4c5-c6d7e8f9g0h1"
+        ],
+        "correctAnswerDescription": "Все части for (инициализация, условие, шаг) необязательны. Инициализацию можно выполнить отдельно."
+    },
+    {
+        "id": "r8s9t0u1-v2w3-x4y5-z6a7-b8c9d0e1f2g3",
+        "text": "Какой из циклов используется для перебора свойств объекта?",
+        "answers": [
+            {
+                "id": "i1j2k3l4-m5n6-o7p8-q9r0-r1s2t3u4v5w6",
+                "text": "for"
+            },
+            {
+                "id": "n9o0p1q2-r3s4-t5u6-v7w8-w9x0y1z2a3b4",
+                "text": "for...of"
+            },
+            {
+                "id": "u7v8w9x0-y1z2-a3b4-c5d6-d7e8f9g0h1i2",
+                "text": "for...in"
+            },
+            {
+                "id": "q2r3s4t5-u6v7-w8x9-y0z1-z2a3b4c5d6e7",
+                "text": "while"
+            }
+        ],
+        "correctAnswerIds": [
+            "u7v8w9x0-y1z2-a3b4-c5d6-d7e8f9g0h1i2"
+        ],
+        "correctAnswerDescription": "Цикл for...in предназначен для перебора перечисляемых свойств объекта."
+    },
+    {
+        "id": "s9t0u1v2-w3x4-y5z6-a7b8-c9d0e1f2g3h4",
+        "text": "Что делает оператор ! в JavaScript?",
+        "answers": [
+            {
+                "id": "j5k6l7m8-n9o0-p1q2-r3s4-s5t6u7v8w9x0",
+                "text": "увеличивает значение на 1"
+            },
+            {
+                "id": "x3y4z5a6-b7c8-d9e0-f1g2-g3h4i5j6k7l8",
+                "text": "обращает логическое значение"
+            },
+            {
+                "id": "t9u0v1w2-x3y4-z5a6-b7c8-c9d0e1f2g3h4",
+                "text": "проверяет на равенство"
+            },
+            {
+                "id": "r6s7t8u9-v0w1-x2y3-z4a5-a6b7c8d9e0f1",
+                "text": "удаляет переменную"
+            }
+        ],
+        "correctAnswerIds": [
+            "x3y4z5a6-b7c8-d9e0-f1g2-g3h4i5j6k7l8"
+        ],
+        "correctAnswerDescription": "Оператор ! (логическое НЕ) преобразует значение в булево и инвертирует его."
+    },
+    {
+        "id": "t0u1v2w3-x4y5-z6a7-b8c9-d0e1f2g3h4i5",
+        "text": "Какой результат выполнения: !!'hello'?",
+        "answers": [
+            {
+                "id": "j8k9l0m1-n2o3-p4q5-r6s7-s8t9u0v1w2x3",
+                "text": "true"
+            },
+            {
+                "id": "y5z6a7b8-c9d0-e1f2-g3h4-h5i6j7k8l9m0",
+                "text": "false"
+            },
+            {
+                "id": "u1v2w3x4-y5z6-a7b8-c9d0-d1e2f3g4h5i6",
+                "text": "'hello'"
+            },
+            {
+                "id": "n3o4p5q6-r7s8-t9u0-v1w2-w3x4y5z6a7b8",
+                "text": "undefined"
+            }
+        ],
+        "correctAnswerIds": [
+            "j8k9l0m1-n2o3-p4q5-r6s7-s8t9u0v1w2x3"
+        ],
+        "correctAnswerDescription": "!! преобразует любое значение в его булев эквивалент. 'hello' — truthy, значит результат true."
+    },
+    {
+        "id": "u1v2w3x4-y5z6-a7b8-c9d0-e1f2g3h4i5j6",
+        "text": "Какое значение имеет переменная x после: let x;?",
+        "answers": [
+            {
+                "id": "z7a8b9c0-d1e2-f3g4-h5i6-i7j8k9l0m1n2",
+                "text": "null"
+            },
+            {
+                "id": "o5p6q7r8-s9t0-u1v2-w3x4-x5y6z7a8b9c0",
+                "text": "undefined"
+            },
+            {
+                "id": "v2w3x4y5-z6a7-b8c9-d0e1-e2f3g4h5i6j7",
+                "text": "0"
+            },
+            {
+                "id": "p8q9r0s1-t2u3-v4w5-x6y7-y8z9a0b1c2d3",
+                "text": "''"
+            }
+        ],
+        "correctAnswerIds": [
+            "o5p6q7r8-s9t0-u1v2-w3x4-x5y6z7a8b9c0"
+        ],
+        "correctAnswerDescription": "Переменная, объявленная без присвоения значения, автоматически получает значение undefined."
+    },
+    {
+        "id": "v2w3x4y5-z6a7-b8c9-d0e1-f2g3h4i5j6k7",
+        "text": "Что выведет: console.log(5 + '5');?",
+        "answers": [
+            {
+                "id": "j0k1l2m3-n4o5-p6q7-r8s9-s0t1u2v3w4x5",
+                "text": "10"
+            },
+            {
+                "id": "a8b9c0d1-e2f3-g4h5-i6j7-j8k9l0m1n2o3",
+                "text": "55"
+            },
+            {
+                "id": "w4x5y6z7-a8b9-c0d1-e2f3-f4g5h6i7j8k9",
+                "text": "NaN"
+            },
+            {
+                "id": "q1r2s3t4-u5v6-w7x8-y9z0-z1a2b3c4d5e6",
+                "text": "ошибка"
+            }
+        ],
+        "correctAnswerIds": [
+            "a8b9c0d1-e2f3-g4h5-i6j7-j8k9l0m1n2o3"
+        ],
+        "correctAnswerDescription": "При сложении числа и строки происходит конкатенация: '5' + '5' = '55'."
+    },
+    {
+        "id": "w3x4y5z6-a7b8-c9d0-e1f2-g3h4i5j6k7l8",
+        "text": "Какой оператор используется для объединения строк?",
+        "answers": [
+            {
+                "id": "k2l3m4n5-o6p7-q8r9-s0t1-t2u3v4w5x6y7",
+                "text": "-"
+            },
+            {
+                "id": "n4o5p6q7-r8s9-t0u1-v2w3-w4x5y6z7a8b9",
+                "text": "+"
+            },
+            {
+                "id": "x0y1z2a3-b4c5-d6e7-f8g9-g0h1i2j3k4l5",
+                "text": "*"
+            },
+            {
+                "id": "r5s6t7u8-v9w0-x1y2-z3a4-a5b6c7d8e9f0",
+                "text": "&"
+            }
+        ],
+        "correctAnswerIds": [
+            "n4o5p6q7-r8s9-t0u1-v2w3-w4x5y6z7a8b9"
+        ],
+        "correctAnswerDescription": "Оператор + используется для конкатенации строк в JavaScript."
+    },
+    {
+        "id": "x4y5z6a7-b8c9-d0e1-f2g3-h4i5j6k7l8m9",
+        "text": "Что вернёт: typeof NaN?",
+        "answers": [
+            {
+                "id": "l6m7n8o9-p0q1-r2s3-t4u5-u6v7w8x9y0z1",
+                "text": "number"
+            },
+            {
+                "id": "o2p3q4r5-s6t7-u8v9-w0x1-x2y3z4a5b6c7",
+                "text": "NaN"
+            },
+            {
+                "id": "y6z7a8b9-c0d1-e2f3-g4h5-h6i7j8k9l0m1",
+                "text": "undefined"
+            },
+            {
+                "id": "s7t8u9v0-w1x2-y3z4-a5b6-b7c8d9e0f1g2",
+                "text": "object"
+            }
+        ],
+        "correctAnswerIds": [
+            "l6m7n8o9-p0q1-r2s3-t4u5-u6v7w8x9y0z1"
+        ],
+        "correctAnswerDescription": "NaN — это специальное значение типа number, представляющее 'Not-a-Number'."
+    },
+    {
+        "id": "y5z6a7b8-c9d0-e1f2-g3h4-i5j6k7l8m9n0",
+        "text": "Какое ключевое слово используется для объявления переменной с функциональной областью видимости?",
+        "answers": [
+            {
+                "id": "m8n9o0p1-q2r3-s4t5-u6v7-v8w9x0y1z2a3",
+                "text": "let"
+            },
+            {
+                "id": "p4q5r6s7-t8u9-v0w1-x2y3-y4z5a6b7c8d9",
+                "text": "const"
+            },
+            {
+                "id": "z0a1b2c3-d4e5-f6g7-h8i9-i0j1k2l3m4n5",
+                "text": "var"
+            },
+            {
+                "id": "t9u0v1w2-x3y4-z5a6-b7c8-c9d0e1f2g3h4",
+                "text": "function"
+            }
+        ],
+        "correctAnswerIds": [
+            "z0a1b2c3-d4e5-f6g7-h8i9-i0j1k2l3m4n5"
+        ],
+        "correctAnswerDescription": "var создаёт переменные с функциональной областью видимости (в отличие от блочной у let и const)."
+    },
+    {
+        "id": "z6a7b8c9-d0e1-f2g3-h4i5-j6k7l8m9n0o1",
+        "text": "Что такое hoisting в JavaScript?",
+        "answers": [
+            {
+                "id": "n1o2p3q4-r5s6-t7u8-v9w0-w1x2y3z4a5b6",
+                "text": "автоматическое удаление переменных"
+            },
+            {
+                "id": "u5v6w7x8-y9z0-a1b2-c3d4-d5e6f7g8h9i0",
+                "text": "поднятие объявлений переменных и функций в начало области видимости"
+            },
+            {
+                "id": "j2k3l4m5-n6o7-p8q9-r0s1-s2t3u4v5w6x7",
+                "text": "преобразование типов"
+            },
+            {
+                "id": "x8y9z0a1-b2c3-d4e5-f6g7-g8h9i0j1k2l3",
+                "text": "цикл по объектам"
+            }
+        ],
+        "correctAnswerIds": [
+            "u5v6w7x8-y9z0-a1b2-c3d4-d5e6f7g8h9i0"
+        ],
+        "correctAnswerDescription": "Hoisting — механизм, при котором объявления var, function поднимаются в начало области видимости, но не инициализируются."
+    },
+    {
+        "id": "a7b8c9d0-e1f2-g3h4-i5j6-k7l8m9n0o1p2",
+        "text": "Какой из следующих идентификаторов переменной недопустим в JavaScript?",
+        "answers": [
+            {
+                "id": "t3u4v5w6-x7y8-z9a0-b1c2-c3d4e5f6g7h8",
+                "text": "myVar"
+            },
+            {
+                "id": "q6r7s8t9-u0v1-w2x3-y4z5-z6a7b8c9d0e1",
+                "text": "2ndPlace"
+            },
+            {
+                "id": "i0j1k2l3-m4n5-o6p7-q8r9-r0s1t2u3v4w5",
+                "text": "_private"
+            },
+            {
+                "id": "w4x5y6z7-a8b9-c0d1-e2f3-f4g5h6i7j8k9",
+                "text": "$element"
+            }
+        ],
+        "correctAnswerIds": [
+            "q6r7s8t9-u0v1-w2x3-y4z5-z6a7b8c9d0e1"
+        ],
+        "correctAnswerDescription": "Имя переменной не может начинаться с цифры. Остальные варианты допустимы."
+    },
+    {
+        "id": "b8c9d0e1-f2g3-h4i5-j6k7-l8m9n0o1p2q3",
+        "text": "Что выведет: console.log(typeof []);?",
+        "answers": [
+            {
+                "id": "s1t2u3v4-w5x6-y7z8-a9b0-b1c2d3e4f5g6",
+                "text": "array"
+            },
+            {
+                "id": "j7k8l9m0-n1o2-p3q4-r5s6-s7t8u9v0w1x2",
+                "text": "object"
+            },
+            {
+                "id": "x5y6z7a8-b9c0-d1e2-f3g4-g5h6i7j8k9l0",
+                "text": "list"
+            },
+            {
+                "id": "q8r9s0t1-u2v3-w4x5-y6z7-z8a9b0c1d2e3",
+                "text": "undefined"
+            }
+        ],
+        "correctAnswerIds": [
+            "j7k8l9m0-n1o2-p3q4-r5s6-s7t8u9v0w1x2"
+        ],
+        "correctAnswerDescription": "Массив в JavaScript — это объект, поэтому typeof [] возвращает 'object'."
+    },
+    {
+        "id": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+        "text": "Какой цикл используется для перебора элементов массива?",
+        "answers": [
+            {
+                "id": "t4u5v6w7-x8y9-z0a1-b2c3-c4d5e6f7g8h9",
+                "text": "for...in"
+            },
+            {
+                "id": "r1s2t3u4-v5w6-x7y8-z9a0-a1b2c3d4e5f6",
+                "text": "for...of"
+            },
+            {
+                "id": "k0l1m2n3-o4p5-q6r7-s8t9-t0u1v2w3x4y5",
+                "text": "while"
+            },
+            {
+                "id": "y6z7a8b9-c0d1-e2f3-g4h5-h6i7j8k9l0m1",
+                "text": "do...while"
+            },
+            {
+                "id": "s9t0u1v2-w3x4-y5z6-a7b8-b9c0d1e2f3g4",
+                "text": "for"
+            }
+        ],
+        "correctAnswerIds": [
+            "r1s2t3u4-v5w6-x7y8-z9a0-a1b2c3d4e5f6",
+            "s9t0u1v2-w3x4-y5z6-a7b8-b9c0d1e2f3g4"
+        ],
+        "correctAnswerDescription": "for...of и обычный for подходят для перебора массивов. for...in перебирает индексы и не рекомендуется для массивов."
+    },
+    {
+        "id": "d0e1f2g3-h4i5-j6k7-l8m9-n0o1p2q3r4s5",
+        "text": "Что означает 'use strict'; в JavaScript?",
+        "answers": [
+            {
+                "id": "u7v8w9x0-y1z2-a3b4-c5d6-d7e8f9g0h1i2",
+                "text": "включает строгий режим, ужесточающий правила синтаксиса"
+            },
+            {
+                "id": "j3k4l5m6-n7o8-p9q0-r1s2-s3t4u5v6w7x8",
+                "text": "отключает все ошибки"
+            },
+            {
+                "id": "x9y0z1a2-b3c4-d5e6-f7g8-g9h0i1j2k3l4",
+                "text": "делает код быстрее"
+            },
+            {
+                "id": "t2u3v4w5-x6y7-z8a9-b0c1-c2d3e4f5g6h7",
+                "text": "автоматически исправляет ошибки"
+            }
+        ],
+        "correctAnswerIds": [
+            "u7v8w9x0-y1z2-a3b4-c5d6-d7e8f9g0h1i2"
+        ],
+        "correctAnswerDescription": "'use strict'; включает строгий режим, который предотвращает использование небезопасных конструкций и выбрасывает ошибки при них."
+    },
+    {
+        "id": "e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6",
+        "text": "Какое значение имеет this в глобальной области вне strict mode?",
+        "answers": [
+            {
+                "id": "k5l6m7n8-o9p0-q1r2-s3t4-t5u6v7w8x9y0",
+                "text": "undefined"
+            },
+            {
+                "id": "n0o1p2q3-r4s5-t6u7-v8w9-w0x1y2z3a4b5",
+                "text": "window"
+            },
+            {
+                "id": "z3a4b5c6-d7e8-f9g0-h1i2-i3j4k5l6m7n8",
+                "text": "null"
+            },
+            {
+                "id": "u8v9w0x1-y2z3-a4b5-c6d7-d8e9f0g1h2i3",
+                "text": "globalThis"
+            }
+        ],
+        "correctAnswerIds": [
+            "n0o1p2q3-r4s5-t6u7-v8w9-w0x1y2z3a4b5",
+            "u8v9w0x1-y2z3-a4b5-c6d7-d8e9f0g1h2i3"
+        ],
+        "correctAnswerDescription": "Вне strict mode this в глобальной области ссылается на window в браузере или global в Node.js. globalThis унифицирует доступ."
+    },
+    {
+        "id": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7",
+        "text": "Что такоеFalsy-значения в JavaScript?",
+        "answers": [
+            {
+                "id": "v1w2x3y4-z5a6-b7c8-d9e0-e1f2g3h4i5j6",
+                "text": "значения, которые при приведении к boolean дают false"
+            },
+            {
+                "id": "j9k0l1m2-n3o4-p5q6-r7s8-s9t0u1v2w3x4",
+                "text": "ошибки выполнения"
+            },
+            {
+                "id": "y7z8a9b0-c1d2-e3f4-g5h6-h7i8j9k0l1m2",
+                "text": "пустые строки"
+            },
+            {
+                "id": "t5u6v7w8-x9y0-z1a2-b3c4-c5d6e7f8g9h0",
+                "text": "все числа"
+            }
+        ],
+        "correctAnswerIds": [
+            "v1w2x3y4-z5a6-b7c8-d9e0-e1f2g3h4i5j6"
+        ],
+        "correctAnswerDescription": "Falsy-значения — это значения, которые при приведении к булеву типу становятся false, например: false, 0, '', null, undefined, NaN."
+    },
+    {
+        "id": "g3h4i5j6-k7l8-m9n0-o1p2-q3r4s5t6u7v8",
+        "text": "Какой результат выполнения: Boolean(0)?",
+        "answers": [
+            {
+                "id": "i1j2k3l4-m5n6-o7p8-q9r0-r1s2t3u4v5w6",
+                "text": "true"
+            },
+            {
+                "id": "n4o5p6q7-r8s9-t0u1-v2w3-w4x5y6z7a8b9",
+                "text": "false"
+            },
+            {
+                "id": "x0y1z2a3-b4c5-d6e7-f8g9-g0h1i2j3k4l5",
+                "text": "0"
+            },
+            {
+                "id": "r5s6t7u8-v9w0-x1y2-z3a4-a5b6c7d8e9f0",
+                "text": "null"
+            }
+        ],
+        "correctAnswerIds": [
+            "n4o5p6q7-r8s9-t0u1-v2w3-w4x5y6z7a8b9"
+        ],
+        "correctAnswerDescription": "0 — одно из falsy-значений, поэтому Boolean(0) возвращает false."
+    },
+    {
+        "id": "h4i5j6k7-l8m9-n0o1-p2q3-r4s5t6u7v8w9",
+        "text": "Что делает оператор ?? (Nullish Coalescing)?",
+        "answers": [
+            {
+                "id": "l6m7n8o9-p0q1-r2s3-t4u5-u6v7w8x9y0z1",
+                "text": "возвращает правый операнд, если левый равен null или undefined"
+            },
+            {
+                "id": "o2p3q4r5-s6t7-u8v9-w0x1-x2y3z4a5b6c7",
+                "text": "возвращает правый операнд, если левый falsy"
+            },
+            {
+                "id": "y6z7a8b9-c0d1-e2f3-g4h5-h6i7j8k9l0m1",
+                "text": "складывает два значения"
+            },
+            {
+                "id": "r5s6t7u8-v9w0-x1y2-z3a4-a5b6c7d8e9f0",
+                "text": "проверяет на равенство"
+            }
+        ],
+        "correctAnswerIds": [
+            "l6m7n8o9-p0q1-r2s3-t4u5-u6v7w8x9y0z1"
+        ],
+        "correctAnswerDescription": "Оператор ?? возвращает правое значение только если левое — null или undefined, игнорируя другие falsy-значения."
+    },
+    {
+        "id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+        "text": "Как создать комментарий в одной строке в JavaScript?",
+        "answers": [
+            {
+                "id": "m8n9o0p1-q2r3-s4t5-u6v7-v8w9x0y1z2a3",
+                "text": "// это комментарий"
+            },
+            {
+                "id": "p4q5r6s7-t8u9-v0w1-x2y3-y4z5a6b7c8d9",
+                "text": "/* это комментарий */"
+            },
+            {
+                "id": "z0a1b2c3-d4e5-f6g7-h8i9-i0j1k2l3m4n5",
+                "text": "# это комментарий"
+            },
+            {
+                "id": "t9u0v1w2-x3y4-z5a6-b7c8-c9d0e1f2g3h4",
+                "text": "<!-- это комментарий -->"
+            }
+        ],
+        "correctAnswerIds": [
+            "m8n9o0p1-q2r3-s4t5-u6v7-v8w9x0y1z2a3"
+        ],
+        "correctAnswerDescription": "Однострочные комментарии начинаются с //, многострочные — с /* ... */."
+    },
+    {
+        "id": "j6k7l8m9-n0o1-p2q3-r4s5-t6u7v8w9x0y1",
+        "text": "Что произойдет при выполнении: let a = b = 5; вне strict mode?",
+        "answers": [
+            {
+                "id": "n1o2p3q4-r5s6-t7u8-v9w0-w1x2y3z4a5b6",
+                "text": "создаст глобальную переменную b"
+            },
+            {
+                "id": "u5v6w7x8-y9z0-a1b2-c3d4-d5e6f7g8h9i0",
+                "text": "ошибка, b не определена"
+            },
+            {
+                "id": "j2k3l4m5-n6o7-p8q9-r0s1-s2t3u4v5w6x7",
+                "text": "a и b будут undefined"
+            },
+            {
+                "id": "x8y9z0a1-b2c3-d4e5-f6g7-g8h9i0j1k2l3",
+                "text": "a получит 5, b не будет создана"
+            }
+        ],
+        "correctAnswerIds": [
+            "n1o2p3q4-r5s6-t7u8-v9w0-w1x2y3z4a5b6"
+        ],
+        "correctAnswerDescription": "Запись let a = b = 5; на самом деле означает b = 5; let a = b;, где b становится глобальной переменной."
+    },
+    {
+        "id": "k7l8m9n0-o1p2-q3r4-s5t6-u7v8w9x0y1z2",
+        "text": "Какой из следующих фрагментов кода вызовет ReferenceError?",
+        "answers": [
+            {
+                "id": "t3u4v5w6-x7y8-z9a0-b1c2-c3d4e5f6g7h8",
+                "text": "console.log(x); let x = 5;"
+            },
+            {
+                "id": "q6r7s8t9-u0v1-w2x3-y4z5-z6a7b8c9d0e1",
+                "text": "console.log(x); var x = 5;"
+            },
+            {
+                "id": "i0j1k2l3-m4n5-o6p7-q8r9-r0s1t2u3v4w5",
+                "text": "console.log('ok');"
+            },
+            {
+                "id": "w4x5y6z7-a8b9-c0d1-e2f3-f4g5h6i7j8k9",
+                "text": "let y; console.log(y);"
+            }
+        ],
+        "correctAnswerIds": [
+            "t3u4v5w6-x7y8-z9a0-b1c2-c3d4e5f6g7h8"
+        ],
+        "correctAnswerDescription": "Обращение к переменной, объявленной через let, до её объявления вызывает ReferenceError из-за временной мёртвой зоны."
+    },
+    {
+        "id": "l8m9n0o1-p2q3-r4s5-t6u7-v8w9x0y1z2a3",
+        "text": "Какой оператор используется для проверки принадлежности свойства объекту?",
+        "answers": [
+            {
+                "id": "s1t2u3v4-w5x6-y7z8-a9b0-b1c2d3e4f5g6",
+                "text": "."
+            },
+            {
+                "id": "j7k8l9m0-n1o2-p3q4-r5s6-s7t8u9v0w1x2",
+                "text": "in"
+            },
+            {
+                "id": "x5y6z7a8-b9c0-d1e2-f3g4-g5h6i7j8k9l0",
+                "text": "has"
+            },
+            {
+                "id": "q8r9s0t1-u2v3-w4x5-y6z7-z8a9b0c1d2e3",
+                "text": "typeof"
+            }
+        ],
+        "correctAnswerIds": [
+            "j7k8l9m0-n1o2-p3q4-r5s6-s7t8u9v0w1x2"
+        ],
+        "correctAnswerDescription": "Оператор in проверяет, существует ли свойство в объекте, включая унаследованные."
+    },
+    {
+        "id": "m9n0o1p2-q3r4-s5t6-u7v8-w9x0y1z2a3b4",
+        "text": "Что вернёт: 0.1 + 0.2 === 0.3?",
+        "answers": [
+            {
+                "id": "t4u5v6w7-x8y9-z0a1-b2c3-c4d5e6f7g8h9",
+                "text": "true"
+            },
+            {
+                "id": "r1s2t3u4-v5w6-x7y8-z9a0-a1b2c3d4e5f6",
+                "text": "false"
+            },
+            {
+                "id": "k0l1m2n3-o4p5-q6r7-s8t9-t0u1v2w3x4y5",
+                "text": "NaN"
+            },
+            {
+                "id": "y6z7a8b9-c0d1-e2f3-g4h5-h6i7j8k9l0m1",
+                "text": "undefined"
+            }
+        ],
+        "correctAnswerIds": [
+            "r1s2t3u4-v5w6-x7y8-z9a0-a1b2c3d4e5f6"
+        ],
+        "correctAnswerDescription": "Из-за особенностей представления чисел с плавающей точкой 0.1 + 0.2 !== 0.3. Результат ≈ 0.30000000000000004."
+    },
+    {
+        "id": "n0o1p2q3-r4s5-t6u7-v8w9-x0y1z2a3b4c5",
+        "text": "Какое ключевое слово используется для обработки исключений?",
+        "answers": [
+            {
+                "id": "u7v8w9x0-y1z2-a3b4-c5d6-d7e8f9g0h1i2",
+                "text": "try...catch"
+            },
+            {
+                "id": "j3k4l5m6-n7o8-p9q0-r1s2-s3t4u5v6w7x8",
+                "text": "throw"
+            },
+            {
+                "id": "x9y0z1a2-b3c4-d5e6-f7g8-g9h0i1j2k3l4",
+                "text": "error"
+            },
+            {
+                "id": "t2u3v4w5-x6y7-z8a9-b0c1-c2d3e4f5g6h7",
+                "text": "catch only"
+            }
+        ],
+        "correctAnswerIds": [
+            "u7v8w9x0-y1z2-a3b4-c5d6-d7e8f9g0h1i2"
+        ],
+        "correctAnswerDescription": "Блок try...catch используется для перехвата и обработки исключений. throw — для генерации."
+    },
+    {
+        "id": "o1p2q3r4-s5t6-u7v8-w9x0-y1z2a3b4c5d6",
+        "text": "Что делает оператор void в JavaScript?",
+        "answers": [
+            {
+                "id": "k5l6m7n8-o9p0-q1r2-s3t4-t5u6v7w8x9y0",
+                "text": "удаляет переменную"
+            },
+            {
+                "id": "n0o1p2q3-r4s5-t6u7-v8w9-w0x1y2z3a4b5",
+                "text": "возвращает undefined независимо от выражения"
+            },
+            {
+                "id": "z3a4b5c6-d7e8-f9g0-h1i2-i3j4k5l6m7n8",
+                "text": "останавливает выполнение"
+            },
+            {
+                "id": "u8v9w0x1-y2z3-a4b5-c6d7-d8e9f0g1h2i3",
+                "text": "проверяет тип"
+            }
+        ],
+        "correctAnswerIds": [
+            "n0o1p2q3-r4s5-t6u7-v8w9-w0x1y2z3a4b5"
+        ],
+        "correctAnswerDescription": "Оператор void вычисляет выражение и всегда возвращает undefined."
+    },
+    {
+        "id": "p2q3r4s5-t6u7-v8w9-x0y1-z2a3b4c5d6e7",
+        "text": "Как правильно объявить пустой массив?",
+        "answers": [
+            {
+                "id": "v1w2x3y4-z5a6-b7c8-d9e0-e1f2g3h4i5j6",
+                "text": "let arr = [];"
+            },
+            {
+                "id": "j9k0l1m2-n3o4-p5q6-r7s8-s9t0u1v2w3x4",
+                "text": "let arr = {};"
+            },
+            {
+                "id": "y7z8a9b0-c1d2-e3f4-g5h6-h7i8j9k0l1m2",
+                "text": "let arr = new Array();"
+            },
+            {
+                "id": "t5u6v7w8-x9y0-z1a2-b3c4-c5d6e7f8g9h0",
+                "text": "let arr = '';"
+            }
+        ],
+        "correctAnswerIds": [
+            "v1w2x3y4-z5a6-b7c8-d9e0-e1f2g3h4i5j6",
+            "y7z8a9b0-c1d2-e3f4-g5h6-h7i8j9k0l1m2"
+        ],
+        "correctAnswerDescription": "Пустой массив можно создать с помощью литерала [] или конструктора new Array()."
+    },
+    {
+        "id": "q3r4s5t6-u7v8-w9x0-y1z2-a3b4c5d6e7f8",
+        "text": "Какой символ используется для шаблонных строк в JavaScript?",
+        "answers": [
+            {
+                "id": "i1j2k3l4-m5n6-o7p8-q9r0-r1s2t3u4v5w6",
+                "text": "'"
+            },
+            {
+                "id": "n4o5p6q7-r8s9-t0u1-v2w3-w4x5y6z7a8b9",
+                "text": "\""
+            },
+            {
+                "id": "x0y1z2a3-b4c5-d6e7-f8g9-g0h1i2j3k4l5",
+                "text": "`"
+            },
+            {
+                "id": "r5s6t7u8-v9w0-x1y2-z3a4-a5b6c7d8e9f0",
+                "text": "/"
+            }
+        ],
+        "correctAnswerIds": [
+            "x0y1z2a3-b4c5-d6e7-f8g9-g0h1i2j3k4l5"
+        ],
+        "correctAnswerDescription": "Шаблонные строки используют обратные кавычки (`), позволяя вставлять выражения через ${}."
+    },
+    {
+        "id": "r4s5t6u7-v8w9-x0y1-z2a3-b4c5d6e7f8g9",
+        "text": "Что вернёт: typeof function(){}?",
+        "answers": [
+            {
+                "id": "l6m7n8o9-p0q1-r2s3-t4u5-u6v7w8x9y0z1",
+                "text": "function"
+            },
+            {
+                "id": "o2p3q4r5-s6t7-u8v9-w0x1-x2y3z4a5b6c7",
+                "text": "object"
+            },
+            {
+                "id": "y6z7a8b9-c0d1-e2f3-g4h5-h6i7j8k9l0m1",
+                "text": "undefined"
+            },
+            {
+                "id": "r5s6t7u8-v9w0-x1y2-z3a4-a5b6c7d8e9f0",
+                "text": "method"
+            }
+        ],
+        "correctAnswerIds": [
+            "l6m7n8o9-p0q1-r2s3-t4u5-u6v7w8x9y0z1"
+        ],
+        "correctAnswerDescription": "Функции в JavaScript имеют тип 'function', который является подтипом 'object'."
+    },
+    {
+        "id": "s5t6u7v8-w9x0-y1z2-a3b4-c5d6e7f8g9h0",
+        "text": "Какой из следующих типов данных не является примитивным?",
+        "answers": [
+            {
+                "id": "m8n9o0p1-q2r3-s4t5-u6v7-v8w9x0y1z2a3",
+                "text": "boolean"
+            },
+            {
+                "id": "p4q5r6s7-t8u9-v0w1-x2y3-y4z5a6b7c8d9",
+                "text": "symbol"
+            },
+            {
+                "id": "z0a1b2c3-d4e5-f6g7-h8i9-i0j1k2l3m4n5",
+                "text": "array"
+            },
+            {
+                "id": "t9u0v1w2-x3y4-z5a6-b7c8-c9d0e1f2g3h4",
+                "text": "bigint"
+            }
+        ],
+        "correctAnswerIds": [
+            "z0a1b2c3-d4e5-f6g7-h8i9-i0j1k2l3m4n5"
+        ],
+        "correctAnswerDescription": "Массив — это объект, а не примитив. Примитивы: string, number, boolean, null, undefined, symbol, bigint."
+    },
+    {
+        "id": "t6u7v8w9-x0y1-z2a3-b4c5-d6e7f8g9h0i1",
+        "text": "Что выведет: console.log(+'5');?",
+        "answers": [
+            {
+                "id": "n1o2p3q4-r5s6-t7u8-v9w0-w1x2y3z4a5b6",
+                "text": "5"
+            },
+            {
+                "id": "u5v6w7x8-y9z0-a1b2-c3d4-d5e6f7g8h9i0",
+                "text": "'5'"
+            },
+            {
+                "id": "j2k3l4m5-n6o7-p8q9-r0s1-s2t3u4v5w6x7",
+                "text": "NaN"
+            },
+            {
+                "id": "x8y9z0a1-b2c3-d4e5-f6g7-g8h9i0j1k2l3",
+                "text": "undefined"
+            }
+        ],
+        "correctAnswerIds": [
+            "n1o2p3q4-r5s6-t7u8-v9w0-w1x2y3z4a5b6"
+        ],
+        "correctAnswerDescription": "Унарный плюс (+) преобразует строку в число. +'5' → 5."
+    }
+]
